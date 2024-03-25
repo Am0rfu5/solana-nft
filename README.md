@@ -1,6 +1,6 @@
 # Solana NFT using Anchor 
 
-An update to the latest version of Anchor, Anchor-SPL(which now includes MPL Token Metadata) and Solana.  It is based on the [Mint Your First NFT](https://calyptus.co/lessons/mint-your-first-nft/) lesson, this project shows how to mint your first NFT on the Solana blockchain using [Anchor](https://www.anchor-lang.com/) and [Metaplex](https://www.anchor-lang.com/).
+An update to using the latest version of Anchor, Anchor-SPL(which now includes MPL Token Metadata) and Solana.  It is based on the [Mint Your First NFT](https://calyptus.co/lessons/mint-your-first-nft/) lesson, this project shows how to mint your first NFT on the Solana blockchain using [Anchor](https://www.anchor-lang.com/) and [Metaplex](https://www.anchor-lang.com/).
 
 ## Table of Contents
 - [Solana NFT using Anchor](#solana-nft-using-anchor)
@@ -55,7 +55,7 @@ solana_nft_anchor = "<ADD YOUR ADDRESS HERE>"
     // snip
 use mpl_token_metadata::{
     pda::{find_master_edition_account, find_metadata_account},
-    state::DataV2,
+    state::Data,
 };
 
 declare_id!("<UPDATE HERE>");
